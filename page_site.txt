@@ -43,3 +43,36 @@ footer nav !
 contribute
 
 ---
+test idea
+simple bootstrap page
+no adverts
+ask for contributors
+
+for players and for agents
+players-
+view MTT available - contact if want to player
+
+agents- 
+print own table with agent ID 
+---
+form design
+
+--
+///
+action plan:
+build simple bootstrap page 
+    -nav
+    -link to schedule from gsheets
+    -platform listed
+    -contact for players/agent/club -form
+    -contribute
+    -footer
+
+logo        nav
+sniplet of sheet <img>
+link to sheet
+platform 
+form
+contribute
+footer
+

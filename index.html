@@ -1,20 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang-"en">
   <head>
-    <title>APP MTT</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>app MTT</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   </head>
 
   <body>
-    <div>
-      <h1>LOGO PLACEHOLDER</h1>
-      <nav>
-        <a href="">HOME</a>
-        <a href="">SCHEDULE</a>
-        <a href="">CONTACT</a>
-        <a href="">CONTRIBUTE</a>
-      </nav>
-    </div>
+    <div class="container pt-5">
+      
+      <div class="row">
+        <div class="col-sm-2">
+          <img src="img/vector/png/whale.png">
+        </div>
+      </div>
 
-    <div></div>
+      <div class="row">
+        <div class="col-sm-8">
+          <nav>
+            <a href="">GUIDE |</a>
+            <a href="">AGENT |</a>
+            <a href="">CONTACT |</a>
+            <a href="">CONTRIBUTE |</a>
+          </nav>
+        </div>
+
+        <div class="col-sm-4 contact">
+          <img src="img/vector/png/002-telegram.png"><a href="https://t.me/mrredjoker">@mrredjoker</a>
+          <img src="img/vector/png/001-whatsapp.png"><a href="https://pokermtt.wasap.my/">WHATSAPP ME</a>
+        </div>
+      </div>  
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe
+          src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQDlEX3KIbOXOb9OoIf6iIhzIn6YASJ1orx-UiBhwswl6zMRbOSv35aSZ_5OzgppQ0_dCIEbmjYcMWf/pubhtml?gid=1855448477&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+      </div>
+
+      
+    
+      <div id="content">
+        <blockquote class="blockquote">
+          <p>Due to the covid 19 situation, there have been a high volume of players registering. Please understand the delays
+              To compensate for late replies, we will be giving away tickets to <mark>AllNewBet</mark> daily guarantee tournaments.
+              Please fill up the <a href="#form"><strong>form</strong></a> to claim.
+          </p>
+          <p>
+            May the cards be with you
+          </p>
+          <footer class="blockquote-footer">
+            FatWhale <img src="img/vector/png/010-cards.png">
+          </footer>
+        </blockquote>
+      </div>
+
+      <div class="row">
+        
+    
+        <div class="col-md-6">
+          <form id="form" action="/action_page.php">
+            <div class="form-group">
+              <h3 class="display-4">Get in touch:</h3>
+            </div>
+            <div class="form-group">
+              <label for="name">Name: </label>
+              <input id="name" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label for="email">Email: </label>
+              <input name="email" class="form-control" type="email">
+            </div>
+            <div class="form-group">
+              <label for="user">Please select following: </label><br />
+              <input name="user" list="users" placeholder="Player" />
+              <datalist id="users">
+                <option value="Player"> </option>
+                <option value="Agent"> </option>
+                <option value="Club"> </option>
+              </datalist>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Submit</button> 
+          </form>
+        </div>
+        <div class="col-md-6 justify-content-center">
+          <h3 class="display-4">Poker Apps: </h3>
+          <ul>
+            <li><img src="/img/resized_logo/upoker_resized.png"></li>
+            <li><img src="/img/resized_logo/pokerbros_resized.png"></li>
+            <li><img src="/img/resized_logo/Natural8_resized.png"></li>
+            <li><img src="/img/resized_logo/allnewbet-logo_resized.png"></li>
+            <li><img src="/img/resized_logo/pppoker_resized.png"></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        
+          <div class="col-sm-4 contact">
+            <img src="img/vector/png/002-telegram.png"><a href="https://t.me/mrredjoker">@mrredjoker</a>
+            <img src="img/vector/png/001-whatsapp.png"><a href="https://pokermtt.wasap.my/">WHATSAPP ME</a>
+          </div>
+          <div class="col-sm-4 ">
+            Contributed by: FatWhale (Poker Lover for Poker Lovers)
+          </div>
+          
+      </div>
+    </div>
   </body>
 </html>
