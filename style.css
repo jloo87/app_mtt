@@ -1,0 +1,15 @@
+#form {
+  border-style: solid;
+
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.contact {
+  margin: 10px;
+  padding: 10px;
+}
+
+#content {
+  margin-top: 25px;
+}
