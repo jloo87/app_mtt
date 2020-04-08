@@ -14,6 +14,8 @@ bootstrap 4 - 1 component min, 2 columns grid model min
 write up project in readme.md - describe project, whats in each file, other information
 
 ---
+slideshow banner with different visuals from different club
+
 shows ALL online app MTTs in one page
     - add filter
 
@@ -25,9 +27,19 @@ tips to improve productivity
 
 google analytics
 ---
-
 target customers
 - existing MTT grinders (how to pull them over)
 - new players (freeroll information)
 
+---
+mobile flow: (from user perspective)
 
+logo        nav !
+mtt visuals slideshow (?)
+table with MTT schedule from different platform !
+contact form !
+platform + gamblaware + safe 
+footer nav !
+contribute
+
+---
