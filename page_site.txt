@@ -1,0 +1,33 @@
+goal: cs50, build website for online MTTs
+
+index - main page
+contact - contact page
+free tickets - promotion page
+
+cs50
+4 pages
+one list, one table, one image
+css file - 5 properties, 5 types of selectors, #id once min, .class once min
+@media - for smaller screens
+bootstrap 4 - 1 component min, 2 columns grid model min
+1 scss min, 1 scss nesting min, 1 scss inheritance
+write up project in readme.md - describe project, whats in each file, other information
+
+---
+shows ALL online app MTTs in one page
+    - add filter
+
+form for player account/agent
+
+promotions
+
+tips to improve productivity
+
+google analytics
+---
+
+target customers
+- existing MTT grinders (how to pull them over)
+- new players (freeroll information)
+
+
